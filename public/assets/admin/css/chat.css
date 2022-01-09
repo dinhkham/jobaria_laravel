@@ -1,0 +1,101 @@
+.inbox-user{
+    width: 40px;
+}
+.inbox-user img{
+    width: 40px;
+}
+
+.inbox-settings{
+    top: 0;
+    right: 0;
+    font-size: 22px;
+}
+
+.input-inbox-search-user, .input-inbox-search-user:focus{
+    background-color: #f3f7f9;
+    color: #6c757d;
+    padding-left: 40px;
+    border-color: #f3f7f9!important;;
+}
+
+.inbox-icon-search{
+    position: absolute;
+    top: 23%;
+    left: 15px;
+}
+
+.wrapper-input-inbox-send{
+    background-color: #f1f5f7;
+    padding: 20px;
+}
+
+.wrapper-input-inbox-send input{
+    border: none;
+}
+
+.title-author{
+    color: #323a46;
+    margin-bottom: 0 !important;
+    line-height: 40px;
+}
+
+.user-search{
+
+}
+
+.wrapper-user-search{
+    background: white;
+    width: auto;
+    left: -24px;
+    border-radius: 10px;
+    z-index: 100;
+    padding: 0 24px ;
+    right: -24px;
+    position: absolute;
+    top: 136%;
+}
+.triangle{
+    width: 0px;
+    position: absolute;
+    left: 43%;
+    top: -13px;
+    height: 0px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 40px solid white;
+}
+.user-search-item{
+    cursor: pointer;
+    z-index: 1000;
+}
+.user-inbox-active{
+    border-radius: 40px;
+    background-color: #e8f5e9;
+}
+.user-inbox-active .inbox-item-img{
+    margin-left: 15px;
+}
+.user-inbox-active .inbox-item-author{
+    font-weight: bold;
+    color: #0b0b0b;
+}
+.user__online, .user__offline{
+    position: absolute;
+    top: 23px;
+    right: -1px;
+}
+.user__online {
+    color: #3bafda!important;
+}
+
+.user__offline{
+    color: #f1556c !important;
+}
+
+.inbox-item-text{
+    text-overflow: ellipsis;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1;
+    overflow: hidden !important;
+    -webkit-box-orient: vertical;
+}
